@@ -1,0 +1,921 @@
+/* Responsiveness style sheet with properties */
+@media screen and (max-width:816px) {
+    body {
+        overflow-x: hidden;
+    }
+
+
+    .top {
+        display: none;
+    } 
+
+         nav ul {
+             margin-right: 0px;
+             float: left;
+         }
+    
+         nav .logo {
+             padding-left: 10px;
+             width: 100%;
+         }
+         
+         nav .logo img{
+             padding-right: 20px;
+         }
+    
+         .show+a,
+         ul {
+             display: none;
+         }
+    
+         nav ul li,
+         nav ul ul li {
+             display: block;
+             width: 100%;
+             color: #fff;
+         }
+
+         nav ul li a {
+            display: block;
+            text-align: left;
+            color: #fff;
+            background: #7e30a3;
+            }
+    
+         .show {
+             display: block;
+             color: #fff;
+             background-color: #7E30A3;
+             font-size: 18px;
+             text-transform: uppercase;
+             padding: 0 20px;
+             line-height: 70px;
+             font-weight: 600;
+             cursor: pointer;
+         }
+    
+         .show:hover {
+             color: #fff;
+         }
+    
+         .icon {
+             display: block;
+             color: #7E30A3;
+             position: absolute;
+             top: 0;
+             right: 40px;
+             line-height: 70px;
+             cursor: pointer;
+             font-size: 25px;
+         }
+    
+         nav ul ul {
+             top: 70px;
+             border-top: 0px;
+             float: none;
+             position: static;
+             display: none;
+             opacity: 1;
+             visibility: visible;
+         }
+    
+         nav ul ul a {
+             padding-left: 40px;
+         }
+/*     
+         nav ul ul ul a {
+             padding-left: 80px;
+         }
+    
+         nav ul ul ul li {
+             position: static;
+         } */
+    
+         [id^=btn]:checked+ul {
+             display: block;
+             background-color: #fff;
+         }
+    
+         nav ul ul li {
+             border-bottom: 0px;
+         }
+
+         .sub-links li a {
+    background-color: #783896c6;
+    color: #fff;
+}
+    
+    /* about_us tablet mode responsiveness styling starting */
+    .belowText #belowLine {
+        background-color: #7e30a3;
+        height: 0.2rem;
+        width: 6.5rem;
+        margin-left: 43%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .section2 .mission {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+
+    .section2 .mission .missionImage {
+        width: 100%;
+        height: 400px;
+    }
+
+    .section2 .mission .history {
+        width: 100%;
+    }
+
+
+    .section3 .coreValues {
+        width: 80%;
+        height: 400px;
+        margin-left: 50px;
+    }
+
+    #team {
+
+        width: 200px;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    #team img {
+        width: 200px;
+        height: 250px;
+    }
+
+    #team h3 {
+        font-size: 15px;
+    }
+
+    #team p {
+        font-size: 12px;
+    }
+
+    /* Contact us tablet mode responsivenesss style */
+    .contact {
+        height: 20rem;
+
+    }
+
+    .contact>h1,
+    .Touch>h1 {
+        font-size: 30px;
+
+    }
+
+    .contact>h1 {
+        position: absolute;
+        top: 9rem;
+        left: 37%;
+    }
+
+    .Boxes {
+        margin-top: -70px;
+        margin-left: 60px;
+    }
+
+    .Boxes .card {
+        height: 100px;
+        width: 130px;
+        padding: 30px 10px 15px 10px;
+        margin-right: 60px;
+    }
+
+    .cards-style>i {
+        /* height: 10px;
+        width: 10px; */
+        font-size: 40px;
+        transform: translateY(-30px);
+    }
+
+
+
+
+    .cards-style>p {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 50px;
+        transform: translateY(-60px);
+    }
+
+
+
+
+    .reach-us {
+        display: flex;
+        margin-top: 5rem;
+    }
+
+    .formular {
+        box-sizing: border-box;
+        height: 250px;
+
+    }
+
+
+    form>label {
+        font-size: 20px;
+
+    }
+
+    form>input {
+        width: 20rem;
+        height: 1.5rem;
+        font-size: 20px;
+
+    }
+
+
+    .button {
+        width: 6.5rem;
+        font-size: 17px;
+        box-sizing: border-box;
+    }
+
+    .Touch {
+        height: 250px;
+        width: 300px;
+        padding-top: 27px;
+        margin-left: 20px;
+    }
+
+
+    .Touch>p {
+        font-size: 20px;
+        text-align: justify;
+        line-height: 1.5rem;
+    }
+
+
+
+    .icon-accent {
+        margin-top: 60px;
+        margin-right: 30px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .map>iframe {
+        height: 350px;
+        margin-top: 80px;
+    }
+}
+
+
+/* General style for phone mode responiveness */
+
+@media screen and (min-width:320px) and (max-width: 460px) {
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .menu-top {
+        position: relative;
+    }
+
+    nav {
+        position: absolute;
+        top: 0;
+        z-index: 2;
+        width: 100%;
+   }
+    .swiper-slide img {
+        height: 25rem;
+    }
+
+    .swiper-slide .text h1 {
+        font-size: 15px;
+        transform: translateX(-60px);
+        letter-spacing: 0.5px;
+    }
+
+    .swiper-slide .text span {
+        font-size: 15px;
+        margin-left: -100px;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .section-one {
+        padding-left: 12px;
+        justify-content: space-between;
+        height: 80px;
+
+    }
+
+    .section-one .cart {
+        width: 100px;
+        margin-top: -20px;
+    }
+
+    .section-one h2 {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+    .section-one img {
+        height: 50px;
+        width: 60px;
+    }
+
+    .hikmah {
+        margin-left: 30px;
+        width: 90%;
+    }
+
+    .hikmah p {
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    .vision {
+        margin-top: 30px;
+
+    }
+
+        .five {
+            width: 100%;
+            margin: auto;
+        }
+
+    .vision-box .vision .five h1 {
+        margin-top: -10px;
+        margin-left: 30px;
+    }
+
+    .vision-box .vision .five p,
+    button {
+        margin-left: 40px;
+    }
+
+    .vision-box .vision .five p {
+        color: rgb(27, 27, 27);
+    }
+    .v_button {
+    margin-left: -10px;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+    .founder {
+        margin-top: 50px;
+    }
+
+    .founder .founder-inner {
+        margin-left: 35px;
+        margin-bottom: -80px;
+    }
+
+    .founder .founder-inner .speech img {
+        height: 300px;
+        width: 320px;
+    }
+
+        .founder .founder-inner .speech p{
+            width: 100%;
+            font-size: 16px;
+        }
+
+    .activities .programs .care {
+        width: 300px;
+        height: 360px;
+
+    }
+
+    .activities .programs .care img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .activities .programs .care p {
+        margin-top: 15px;
+        margin-right: 12px;
+    }
+
+    .activities .programs .care button {
+        width: 100%;
+        margin-left: 7px;
+        margin-top: 5px;
+        border-radius: 10px;
+    }
+
+    .ours h2 {
+        font-size: 20px;
+        width: 85%;
+        margin-left: 25px;
+        margin-top: -15px;
+    }
+
+    .ours p {
+        font-size: 14px;
+        width: 85%;
+            margin-left: 25px;
+            margin-top: 10px;
+    }
+
+    .ours .left{
+        margin-top: -40px;
+        margin-left: -120px;
+    }
+
+    .ours .inner .left .svg-text {
+        margin-top: 10px;
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .ours .inner .left .svg-text i {
+        font-size: 28px;
+    }
+
+    .ours .inner .right {
+        margin-top: 120px;
+    }
+
+    .ours .inner .right img {
+        width: 160px;
+        height: 160px;
+        transform: translateX(-50px);
+    }
+
+    .unique-bg{
+        height: 100%;
+    }
+    .unique h1 {
+        margin-top: -70px;
+    }
+
+    .mess {
+        margin-top: -200px;
+    }
+
+    .mess .good {
+        width: 280px;
+        height: 300px;
+    }
+
+    .mess .good img {
+        width: 100%;
+        height: 160px;
+    }
+
+    .mess .good p {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .mess .good h1 {
+        font-size: 16px;
+    }
+
+    .wrapper {
+        margin-left: 17px;
+    }
+
+    .carousel .slick-prev {
+        left: -20px;
+    }
+
+
+    .facilities {
+        margin-top: 8px;
+
+    }
+
+    .room {
+        margin-top: 5px;
+    }
+
+    .room .plays {
+
+        width: 150px;
+    }
+
+    .room .plays img {
+        height: 100px;
+        width: 110px;
+        margin-top: 15px;
+    }
+
+    .room .plays h3 {
+        font-size: 14px;
+        font-weight: 100;
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+
+    .room .plays p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .footer .upper {
+        margin-top: -30px;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+
+    .footer h1 {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .footer h4 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .contact-second {
+        margin-top: 40px;
+    }
+
+    .footer .contact-second h2 {
+        text-align: center;
+    }
+
+    .social-second {
+        margin-top: 30px;
+    }
+
+    .footer hr {
+        margin-left: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    /* about_us phone mode responsiveness styling starting */
+    .aboutBanner{
+        height: 22rem;
+    }
+
+    .about h2{
+        top: 5%;
+        left: -10%;
+        font-size: 32px;
+    }
+    .belowText #belowLine {
+        background-color: #7e30a3;
+        height: 0.2rem;
+        width: 5.5rem;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .belowText{
+        font-size: 16px;
+    }
+    .statistics{
+        width: 92%;
+        margin: auto;
+    }
+
+    .statistics .num {
+        font-size: 18px;
+    }
+
+    .statistics p{
+        font-size: 13px;
+    }
+
+    .section2 p{
+        font-size: 16px;
+    }
+    .mission {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+
+    .section2 .mission .missionImage {
+        width: 100%;
+        height: 200px;
+    }
+
+    .section2 .mission .history {
+        width: 100%;
+        margin-left: -5px;
+    }
+
+    .section3 p, .section4 p, .section5 p{
+        font-size: 16px;
+    }
+
+    .section3 .coreValues {
+        width: 80%;
+        height: 200px;
+        margin-left: 20px;
+    }
+
+    .section4{
+        margin: auto;
+    }
+    .section4 h1{
+
+        font-size: 22px;
+        margin-top: 50px ;
+    }
+
+    .section4 #icon {
+        margin-top: 20px;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .section5 h1{
+        margin-top: -80px;
+    }
+    #subjectCard {
+        height: 100px;
+        width: 100px;
+
+    }
+
+    #subjectCard img {
+        height: 80px;
+        width: 80px;
+    }
+
+    #subjectCard p {
+        font-size: 10px;
+        margin: auto;
+    }
+
+    #team {
+
+        width: 40%;
+        height: 160px;
+        margin-top: 20px;
+    }
+
+    #team img {
+        width: 100%;
+        height: 120px;
+    }
+
+    #team h3 {
+        font-size: 10px;
+    }
+
+    #team p {
+        font-size: 12px;
+    }
+
+    /* .programs phone responsiveness */
+    .slider-box .allow {
+        height: 200px;
+    }
+
+    .slider-box .slider-text {
+        top: 50%;
+        left: 20%;
+    }
+
+    .slider-box .slider-text h1 {
+        font-size: 26px;
+        letter-spacing: 1.5px;
+    }
+
+    .parent {
+        margin-top: -7rem;
+    }
+
+    .parent h3 {
+        margin-left: 2.5rem;
+        text-align: left;
+        width: 80%;
+    }
+
+    .activities {
+        margin-top: 30px;
+    }
+
+    .grid {
+        flex-flow: column wrap;
+    }
+
+    .grid .program {
+        height: 330px;
+        width: 90%;
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+
+    .grid .program img {
+        height: 150px;
+    }
+
+    .grid .program .program-content {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .grid .program .program-content h1 {
+        text-align: center;
+    }
+
+    .grid .program .program-content p {
+        line-height: normal;
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    .minigallery {
+    }
+
+    .minigallery img {
+        height: 120px;
+        width: 150px;
+        margin-top: 10px;
+    }
+
+    /* contact_us responsive */
+    .contact {
+        height: 15rem;
+    }
+
+
+    .contact>h1,
+    .Touch>h1 {
+        font-size: 20px;
+        left: 35%;
+    }
+
+    .contact>h1 {
+        position: absolute;
+        top: 7rem;
+    }
+
+    .Boxes {
+        margin-top: -40px;
+        margin-left: 30px;
+    }
+
+    .Boxes>.card {
+        height: 50px;
+        width: 80px;
+        padding: 20px 5px 10px 5px;
+        margin-right: 30px;
+
+    }
+
+    .cards-style>i {
+        font-size: 20px;
+        transform: translateY(-45px);
+    }
+
+
+
+
+    .cards-style>p {
+        font-size: 7px;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 7px;
+        transform: translateY(-50px);
+    }
+
+
+
+    .reach-us {
+        display: inline-block;
+        margin-top: 4rem;
+    }
+
+    .formular {
+        box-sizing: border-box;
+        height: 200px;
+        margin-left: 20px;
+
+
+
+    }
+
+
+    form>label {
+        font-size: 15px;
+
+    }
+
+    form>input {
+        width: 15rem;
+        height: 1rem;
+        font-size: 15px;
+
+    }
+
+    form>hr {
+        width: 16rem;
+    }
+
+
+
+    .button {
+        width: 5rem;
+        font-size: 15px;
+        box-sizing: border-box;
+    }
+
+    .Touch {
+        height: 200px;
+        width: 200px;
+        padding-top: 80px;
+        margin-left: 20px;
+    }
+
+
+    .Touch>p {
+        font-size: 15px;
+        text-align: justify;
+        line-height: 1rem;
+    }
+
+
+
+    .icon-accent {
+        margin-top: 40px;
+        margin-right: 20px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .map>iframe {
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    /* events responsiveness style start  */
+
+    .events_hero {
+        height: 25rem;
+    }
+
+    .try {
+       top: 15rem;
+       left: 25%; 
+    }
+
+    .re-events {
+        width: 100%;
+        flex-flow: column wrap;
+    }
+
+    .re-events .leftBox {
+        width: 95%;
+        margin: auto;
+    }
+
+    .re-events .leftBox .contant {
+        padding: 10px;
+    }
+
+    .re-events .leftBox .contant p {
+        font-size: 17px;
+    }
+
+    .re-events .events {
+        width: 100%;
+        margin-top: 50px;
+    }
+ 
+    .re-events .events ul li {
+        width: 100%;
+        height: 250px;
+    }
+        .re-events .events ul li .time h2{ 
+            font-size: 25px;
+            margin: 60px 0 0 40px;
+        }
+        .re-events .events ul li .time h2 span{ 
+            font-size: 25px;
+            margin: -20px;
+        }
+                .re-events .events ul li .details h3 {
+                    font-size: 18px;
+        }
+        .re-events .events ul li .details p {
+            margin: 6px 0 0 ;
+            font-size: 15px;
+        }
+        .frames .frame-left iframe {
+            height: 350px;
+        }
+        .frames .frame-right iframe {
+            height: 150px;
+        }
+                .iframe-box h4 {
+                    font-size: 16px;
+                }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .inner {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .inner .first {
+            height: 200px;
+            width: 200px;
+        }
+
+        .inner .two {
+            height: 200px;
+            width: 200px;
+            border: 2px solid rgb(216, 216, 0);
+
+        }
+
+        .inner .tree {
+            height: 200px;
+            width: 200px;
+            border: 2px solid red;
+
+        }
+
+        .inner .four {
+            height: 200px;
+            width: 200px;
+
+        }
+
+        .pic {
+            position: relative;
+        }
+
+        .pic img {
+            width: 520px;
+            height: 390px;
+            position: absolute;
+            top: 2%;
+            left: 3%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="pic">
+            <img src="image/1.jpg" alt="">
+            <div class="inner">
+                <div class="first"></div>
+                <div class="two"></div>
+                <div class="tree"></div>
+                <div class="four"></div>
+            </div>
+        </div>
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aperiam ipsa at dolores! Explicabo
+                nostrum, numquam
+                quisquam aperiam ut laudantium non tempore sunt ducimus, in incidunt eius, neque nesciunt quam.</p>
+        </div>
+    </div>
+</body>
+
+</html>
